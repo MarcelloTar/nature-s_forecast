@@ -176,6 +176,7 @@
     }
     .weather{
         width: 50%;
+        height: 380px;
     }
     .wrap{
         height: 100vh;
