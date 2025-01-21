@@ -19,7 +19,7 @@ button.addEventListener('click', () => {
     getWeather(city)
 
     if (width <= 768) {
-        document.querySelector('.wrap').style.height = '1620px'
+        document.querySelector('.wrap').style.height = '1200px'
         
     }
     

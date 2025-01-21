@@ -179,7 +179,7 @@
         height: 380px;
     }
     .wrap{
-        height: 700px;
+        height: 850px;
         flex-direction: column-reverse;
         justify-content: center;
         row-gap: 100px;
