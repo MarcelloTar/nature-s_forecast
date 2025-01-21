@@ -1,5 +1,7 @@
 const input = document.querySelector('.city');
 const button = document.querySelector('.btn')
+const width = screen.width;
+
 
 const myKey = 'dcf35f8f51efe6145edad81342defd59';
 function getWeather(city) {
@@ -15,6 +17,11 @@ button.addEventListener('click', () => {
     let city = input.value;
     console.log(city);
     getWeather(city)
+
+    if (width <= 768) {
+        document.querySelector('.wrap').style.height = '130vh'
+        
+    }
     
 })
 
